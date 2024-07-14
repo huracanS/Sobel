@@ -1,0 +1,103 @@
+standard
+***Report Model: hsyncfifo_2048x8 Device: EG4D20EG176***
+
+IO Statistics
+#IO                        47
+  #input                   12
+  #output                  35
+  #inout                    0
+
+Utilization Statistics
+#lut                       72   out of  19600    0.37%
+#reg                       36   out of  19600    0.18%
+#le                        93
+  #lut only                57   out of     93   61.29%
+  #reg only                21   out of     93   22.58%
+  #lut&reg                 15   out of     93   16.13%
+#dsp                        0   out of     29    0.00%
+#bram                       2   out of     64    3.12%
+  #bram9k                   2
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       47   out of    130   36.15%
+  #ireg                     0
+  #oreg                     2
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Clock Resource Statistics
+Index     ClockNet     Type               DriverType         Driver          Fanout
+#1        clk_dup_2    GCLK               io                 clk_syn_3.di    26
+
+
+Detailed IO Report
+
+     Name        Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+      clk          INPUT        P61        LVCMOS25          N/A           N/A        NONE    
+     di[7]         INPUT        P136       LVCMOS25          N/A           N/A        NONE    
+     di[6]         INPUT        P102       LVCMOS25          N/A           N/A        NONE    
+     di[5]         INPUT        P129       LVCMOS25          N/A           N/A        NONE    
+     di[4]         INPUT        P86        LVCMOS25          N/A           N/A        NONE    
+     di[3]         INPUT        P149       LVCMOS25          N/A           N/A        NONE    
+     di[2]         INPUT        P74        LVCMOS25          N/A           N/A        NONE    
+     di[1]         INPUT        P119       LVCMOS25          N/A           N/A        NONE    
+     di[0]         INPUT        P68        LVCMOS25          N/A           N/A        NONE    
+      re           INPUT        P26        LVCMOS25          N/A           N/A        NONE    
+      rst          INPUT        P41        LVCMOS25          N/A           N/A        NONE    
+      we           INPUT        P103       LVCMOS25          N/A           N/A        NONE    
+    aempty        OUTPUT        P50        LVCMOS25           8            N/A        NONE    
+     afull        OUTPUT        P27        LVCMOS25           8            N/A        OREG    
+    dout[7]       OUTPUT        P118       LVCMOS25           8            N/A        NONE    
+    dout[6]       OUTPUT        P64        LVCMOS25           8            N/A        NONE    
+    dout[5]       OUTPUT        P156       LVCMOS25           8            N/A        NONE    
+    dout[4]       OUTPUT        P69        LVCMOS25           8            N/A        NONE    
+    dout[3]       OUTPUT        P155       LVCMOS25           8            N/A        NONE    
+    dout[2]       OUTPUT        P75        LVCMOS25           8            N/A        NONE    
+    dout[1]       OUTPUT        P121       LVCMOS25           8            N/A        NONE    
+    dout[0]       OUTPUT        P90        LVCMOS25           8            N/A        NONE    
+  empty_flag      OUTPUT        P130       LVCMOS25           8            N/A        NONE    
+   full_flag      OUTPUT        P107       LVCMOS25           8            N/A        OREG    
+  rdusedw[10]     OUTPUT        P62        LVCMOS25           8            N/A        NONE    
+  rdusedw[9]      OUTPUT        P15        LVCMOS25           8            N/A        NONE    
+  rdusedw[8]      OUTPUT        P53        LVCMOS25           8            N/A        NONE    
+  rdusedw[7]      OUTPUT        P109       LVCMOS25           8            N/A        NONE    
+  rdusedw[6]      OUTPUT        P76        LVCMOS25           8            N/A        NONE    
+  rdusedw[5]      OUTPUT        P126       LVCMOS25           8            N/A        NONE    
+  rdusedw[4]      OUTPUT        P106       LVCMOS25           8            N/A        NONE    
+  rdusedw[3]      OUTPUT        P159       LVCMOS25           8            N/A        NONE    
+  rdusedw[2]      OUTPUT        P174       LVCMOS25           8            N/A        NONE    
+  rdusedw[1]      OUTPUT        P73        LVCMOS25           8            N/A        NONE    
+  rdusedw[0]      OUTPUT        P148       LVCMOS25           8            N/A        NONE    
+     valid        OUTPUT        P152       LVCMOS25           8            N/A        NONE    
+  wrusedw[10]     OUTPUT        P114       LVCMOS25           8            N/A        NONE    
+  wrusedw[9]      OUTPUT        P153       LVCMOS25           8            N/A        NONE    
+  wrusedw[8]      OUTPUT        P104       LVCMOS25           8            N/A        NONE    
+  wrusedw[7]      OUTPUT        P49        LVCMOS25           8            N/A        NONE    
+  wrusedw[6]      OUTPUT        P151       LVCMOS25           8            N/A        NONE    
+  wrusedw[5]      OUTPUT        P30        LVCMOS25           8            N/A        NONE    
+  wrusedw[4]      OUTPUT        P39        LVCMOS25           8            N/A        NONE    
+  wrusedw[3]      OUTPUT        P146       LVCMOS25           8            N/A        NONE    
+  wrusedw[2]      OUTPUT        P11        LVCMOS25           8            N/A        NONE    
+  wrusedw[1]      OUTPUT        P77        LVCMOS25           8            N/A        NONE    
+  wrusedw[0]      OUTPUT        P19        LVCMOS25           8            N/A        NONE    
+
+Report Hierarchy Area:
++--------------------------------------------------------------------------------------------+
+|Instance   |Module                     |le     |lut     |ripple  |seq     |bram    |dsp     |
++--------------------------------------------------------------------------------------------+
+|top        |hsyncfifo_2048x8           |93     |40      |32      |38      |2       |0       |
+|  ram_inst |ram_infer_hsyncfifo_2048x8 |0      |0       |0       |0       |2       |0       |
++--------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1        72   
+    #2         2        4    
+    #3         3        44   
+    #4         4        1    
+    #5        5-10      12   
+    #6       11-50      1    
+  Average     2.25           

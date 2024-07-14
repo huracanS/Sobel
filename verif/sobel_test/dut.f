@@ -1,0 +1,9 @@
+../../rtl/RGB2GRAY/*.sv
+../../rtl/RGB2GRAY/*.v
+../../rtl/SOBEL_LINEBUFFER/*.v
+../../rtl/SOBEL_INTERPOLATION/*.v
+../../rtl/SOBEL_POSITION_CALCULATE/*.v
+../../rtl/SOBEL_REGARRAY/*.sv
+../../rtl/SOBEL_TOP/*.sv
+../../rtl/SOBEL_TOP/*.v
+../../rtl/SOBEL_PIPE_LINE/*.sv

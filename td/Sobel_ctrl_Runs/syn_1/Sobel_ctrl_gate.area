@@ -1,0 +1,39 @@
+standard
+***Report Model: hsyncfifo_2048x8 Device: EG4D20EG176***
+
+IO Statistics
+#IO                        47
+  #input                   12
+  #output                  35
+  #inout                    0
+
+LUT Statistics
+#Total_luts                94
+  #lut4                     6
+  #lut5                     2
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              86
+
+Utilization Statistics
+#lut                       94   out of  19600    0.48%
+#reg                       36   out of  19600    0.18%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       2   out of     64    3.12%
+  #bram9k                   2
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       47   out of    130   36.15%
+  #ireg                     0
+  #oreg                     2
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------+
+|Instance   |Module                     |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------+
+|top        |hsyncfifo_2048x8           |8       |86      |38      |2       |0       |
+|  ram_inst |ram_infer_hsyncfifo_2048x8 |0       |0       |0       |2       |0       |
++------------------------------------------------------------------------------------+

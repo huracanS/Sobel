@@ -1,0 +1,35 @@
+standard
+***Report Model: hsyncfifo_2048x8 Device: EG4D20EG176***
+
+IO Statistics
+#IO                        47
+  #input                   12
+  #output                  35
+  #inout                    0
+
+Gate Statistics
+#Basic gates               41
+  #and                      2
+  #nand                     0
+  #or                       0
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      2
+  #bufif1                   0
+  #MX21                     0
+  #FADD                     0
+  #DFF                     37
+  #LATCH                    0
+#MACRO_ADD                  8
+#MACRO_EQ                   1
+#MACRO_OTHERS               1
+
+Report Hierarchy Area:
++---------------------------------------------------------------+
+|Instance   |Module                     |gates  |seq    |macros |
++---------------------------------------------------------------+
+|top        |hsyncfifo_2048x8           |4      |37     |10     |
+|  ram_inst |ram_infer_hsyncfifo_2048x8 |0      |0      |1      |
++---------------------------------------------------------------+
