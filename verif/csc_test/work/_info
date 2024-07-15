@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//wsl.localhost/Ubuntu-20.04/home/superior/Sobel/verif/csc_test
+visp_csc
+Z1 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 b291a@601^iJhiWG8:be53
+IVkQ^I`BL1cchOc8WchiXK2
+!s105 csc_sv_unit
+S1
+R0
+Z3 w1720948840
+8../../rtl/RGB2GRAY/csc.sv
+F../../rtl/RGB2GRAY/csc.sv
+L0 6
+Z4 OL;L;10.4;61
+Z5 !s108 1721020496.551000
+Z6 !s107 ../../rtl/RGB2GRAY/skid_buffer.v|../../rtl/RGB2GRAY/csc.sv|
+Z7 !s90 -f|./dut.f|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vskid_buffer
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 Y;CCZXF]@DfN79=7]WDnC1
+ILA`CoYn00Pzo7zQ]26FmB2
+R0
+R3
+8../../rtl/RGB2GRAY/skid_buffer.v
+F../../rtl/RGB2GRAY/skid_buffer.v
+L0 1
+R4
+R5
+R6
+R7
+!i113 0
+R8
+vtb_isp_csc
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 75]S7SXN_U8QbOEaz5C][2
+I;JNaJQgSR^>5idLLl;jYo1
+!s105 tb_isp_csc_sv_unit
+S1
+R0
+R3
+8tb_isp_csc.sv
+Ftb_isp_csc.sv
+L0 3
+R4
+!s108 1721020497.136000
+!s107 tb_isp_csc.sv|
+!s90 tb_isp_csc.sv|
+!i113 0
+R8

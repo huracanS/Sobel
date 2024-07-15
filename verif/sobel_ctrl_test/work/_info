@@ -1,0 +1,172 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//wsl.localhost/Ubuntu-20.04/home/superior/Sobel/verif/sobel_ctrl_test
+vhsyncfifo_2048x8_afull1920
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 UHGQBQ_37z7ii@9GH_ZdB2
+IZPmA6?k>a_520Wg>?0iMY1
+R0
+Z2 w1720948840
+8../../rtl/sobel_linebuffer/hsyncfifo_2048x8_afull1920_sim.v
+F../../rtl/sobel_linebuffer/hsyncfifo_2048x8_afull1920_sim.v
+L0 5
+Z3 OL;L;10.4;61
+Z4 !s108 1721034010.608000
+Z5 !s107 ../../rtl/sobel_top/sobel_ctrl.sv|../../rtl/sobel_regarray/sobel_regarray.sv|../../rtl/sobel_position_calculate/sobel_position_calculate.v|../../rtl/sobel_cov/sobel_cov.v|../../rtl/sobel_linebuffer/sobel_linebuffer.v|../../rtl/sobel_linebuffer/hsyncfifo_2048x8_afull1920_sim.v|../../rtl/sobel_linebuffer/hsyncfifo_ahead2048x8.v|
+Z6 !s90 -f|./dut.f|
+!i113 0
+Z7 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vhsyncfifo_ahead2048x8
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;zNCDo>?B:]Yoe?5=iAf[2
+I[Uf]Jd[33Il?H]K0I2VM40
+R0
+w1721021801
+8../../rtl/sobel_linebuffer/hsyncfifo_ahead2048x8.v
+F../../rtl/sobel_linebuffer/hsyncfifo_ahead2048x8.v
+L0 2
+R3
+R4
+R5
+R6
+!i113 0
+R7
+vsobel_cov
+!s110 1721034010
+!i10b 1
+!s100 `j4nNJbXAeI1hPK56j]?;1
+I52QGfMTnh0zC3i=97mWTZ1
+R1
+R0
+w1721030257
+8../../rtl/sobel_cov/sobel_cov.v
+F../../rtl/sobel_cov/sobel_cov.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 0
+R7
+vsobel_ctrl
+Z8 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 bz3R<ih@cmlU3kNOENA5O2
+I[?8Wo95PgM[K::8fYz7I52
+!s105 sobel_ctrl_sv_unit
+S1
+R0
+w1721031558
+8../../rtl/sobel_top/sobel_ctrl.sv
+F../../rtl/sobel_top/sobel_ctrl.sv
+L0 1
+R3
+R4
+R5
+R6
+!i113 0
+R7
+vsobel_linebuffer
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6g0NW`CA0l@ZeiZbSoQjY1
+IC9<:jg1C@TEd;hDTboFz23
+R0
+w1721022265
+8../../rtl/sobel_linebuffer/sobel_linebuffer.v
+F../../rtl/sobel_linebuffer/sobel_linebuffer.v
+L0 2
+R3
+R4
+R5
+R6
+!i113 0
+R7
+vsobel_position_calculate
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @0eS5WS2GeJ>2:DLTL7[A1
+IkRWM;7:WgbLiXBUg6NS@@1
+R0
+w1721024466
+8../../rtl/sobel_position_calculate/sobel_position_calculate.v
+F../../rtl/sobel_position_calculate/sobel_position_calculate.v
+L0 2
+R3
+R4
+R5
+R6
+!i113 0
+R7
+vsobel_regarray
+R8
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 28Z]bh;TCNYXo1BnVKNX>3
+I@;SgaQJToO;j55LT?9BOJ1
+!s105 sobel_regarray_sv_unit
+S1
+R0
+R2
+8../../rtl/sobel_regarray/sobel_regarray.sv
+F../../rtl/sobel_regarray/sobel_regarray.sv
+L0 1
+R3
+R4
+R5
+R6
+!i113 0
+R7
+vtb_sobel_ctrl2
+R8
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 _MTX2<a1h6BMmK3<nH_z[2
+I[`2WE1zb:f7AYZO^LSi7Y0
+!s105 tb_sobel_ctrl2_sv_unit
+S1
+R0
+w1721034000
+8tb_sobel_ctrl2.sv
+Ftb_sobel_ctrl2.sv
+L0 3
+R3
+!s108 1721034011.376000
+!s107 tb_sobel_ctrl2.sv|
+!s90 tb_sobel_ctrl2.sv|
+!i113 0
+R7

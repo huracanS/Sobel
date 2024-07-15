@@ -1,6 +1,5 @@
-../../rtl/SOBEL_LINEBUFFER/*.v
-../../rtl/SOBEL_INTERPOLATION/*.v
-../../rtl/SOBEL_POSITION_CALCULATE/*.v
-../../rtl/SOBEL_REGARRAY/*.sv
-../../rtl/SOBEL_TOP/*.sv
-../../rtl/SOBEL_TOP/*.v
+../../rtl/sobel_linebuffer/*.v
+../../rtl/sobel_cov/*.v
+../../rtl/sobel_position_calculate/*.v
+../../rtl/sobel_regarray/*.sv
+../../rtl/sobel_top/sobel_ctrl.sv

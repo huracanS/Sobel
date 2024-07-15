@@ -1,0 +1,40 @@
+standard
+***Report Model: sobel_ctrl Device: EG4S20BG256***
+
+IO Statistics
+#IO                        32
+  #input                   12
+  #output                  20
+  #inout                    0
+
+Gate Statistics
+#Basic gates              120
+  #and                     15
+  #nand                     0
+  #or                       2
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      7
+  #bufif1                   0
+  #MX21                     4
+  #FADD                     0
+  #DFF                     92
+  #LATCH                    0
+#MACRO_ADD                 10
+#MACRO_OTHERS               2
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------+
+|Instance                           |Module                     |gates  |seq    |macros |
++---------------------------------------------------------------------------------------+
+|top                                |sobel_ctrl                 |28     |92     |12     |
+|  u_sobel_cov                      |sobel_cov                  |0      |82     |10     |
+|  u_sobel_linebuffer               |sobel_linebuffer           |27     |2      |2      |
+|    hsyncfifo_ahead2048x8_line0    |hsyncfifo_ahead2048x8      |11     |1      |1      |
+|      u_hsyncfifo_2048x8_afull1920 |hsyncfifo_2048x8_afull1920 |0      |0      |1      |
+|    hsyncfifo_ahead2048x8_line1    |hsyncfifo_ahead2048x8      |11     |1      |1      |
+|      u_hsyncfifo_2048x8_afull1920 |hsyncfifo_2048x8_afull1920 |0      |0      |1      |
+|  u_sobel_regarray                 |sobel_regarray             |0      |8      |0      |
++---------------------------------------------------------------------------------------+

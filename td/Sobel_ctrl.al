@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project Version="3" Minor="2" Path="E:/EXU/Sobel/td">
+<Project Version="3" Minor="2" Path="//wsl.localhost/Ubuntu-20.04/home/superior/Sobel/td">
     <Project_Created_Time></Project_Created_Time>
     <TD_Version>5.6.71036</TD_Version>
     <Name>Sobel_ctrl</Name>
@@ -12,7 +12,6 @@
         <Verilog>
             <File Path="../rtl/Sobel_ctrl/Sobel_top/demosaic_top.v">
                 <FileInfo>
-                    <Attr Name="AutoExcluded" Val="true"/>
                     <Attr Name="UsedInSyn" Val="true"/>
                     <Attr Name="UsedInP&R" Val="true"/>
                     <Attr Name="BelongTo" Val="design_1"/>
@@ -37,7 +36,6 @@
             </File>
             <File Path="../rtl/Sobel_ctrl/sobel_linebuffer/hsyncfifo_ahead2048x8.v">
                 <FileInfo>
-                    <Attr Name="AutoExcluded" Val="true"/>
                     <Attr Name="UsedInSyn" Val="true"/>
                     <Attr Name="UsedInP&R" Val="true"/>
                     <Attr Name="BelongTo" Val="design_1"/>
@@ -82,7 +80,6 @@
         <IP_FILE>
             <File Path="al_ip/hsyncfifo_2048x8.ipc">
                 <FileInfo>
-                    <Attr Name="AutoExcluded" Val="true"/>
                     <Attr Name="UsedInSyn" Val="true"/>
                     <Attr Name="UsedInP&R" Val="true"/>
                     <Attr Name="BelongTo" Val="design_1"/>
@@ -99,7 +96,7 @@
     </FileSets>
     <TOP_MODULE>
         <LABEL></LABEL>
-        <MODULE>hsyncfifo_2048x8</MODULE>
+        <MODULE>hsyncfifo_2048x8_afull1920</MODULE>
         <CREATEINDEX>auto</CREATEINDEX>
     </TOP_MODULE>
     <Property>

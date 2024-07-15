@@ -1,0 +1,55 @@
+# do ./sim.do
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet -modelsimini D:/Modelsim/modelsim.ini work work 
+# Copying D:/Modelsim/modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/Modelsim/modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 13:14:56 on Jul 15,2024
+# vlog -f ./dut.f 
+# -- Compiling module isp_csc
+# -- Compiling module skid_buffer
+# 
+# Top level modules:
+# 	isp_csc
+# End time: 13:14:57 on Jul 15,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 13:14:57 on Jul 15,2024
+# vlog tb_isp_csc.sv 
+# -- Compiling module tb_isp_csc
+# 
+# Top level modules:
+# 	tb_isp_csc
+# End time: 13:14:57 on Jul 15,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "./sim.do" 
+# Start time: 13:14:57 on Jul 15,2024
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Refreshing //wsl.localhost/Ubuntu-20.04/home/superior/Sobel/verif/csc_test/work.tb_isp_csc
+# Loading sv_std.std
+# Loading work.tb_isp_csc
+# Refreshing //wsl.localhost/Ubuntu-20.04/home/superior/Sobel/verif/csc_test/work.isp_csc
+# Loading work.isp_csc
+# Refreshing //wsl.localhost/Ubuntu-20.04/home/superior/Sobel/verif/csc_test/work.skid_buffer
+# Loading work.skid_buffer
+# ** Note: $finish    : tb_isp_csc.sv(98)
+#    Time: 55634193700 ps  Iteration: 1  Instance: /tb_isp_csc
+# End time: 13:15:40 on Jul 15,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 1

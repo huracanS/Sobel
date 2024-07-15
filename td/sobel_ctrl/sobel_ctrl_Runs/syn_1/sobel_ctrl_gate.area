@@ -1,0 +1,45 @@
+standard
+***Report Model: sobel_ctrl Device: EG4S20BG256***
+
+IO Statistics
+#IO                        32
+  #input                   12
+  #output                  20
+  #inout                    0
+
+LUT Statistics
+#Total_luts               108
+  #lut4                     8
+  #lut5                     4
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              96
+
+Utilization Statistics
+#lut                      108   out of  19600    0.55%
+#reg                       66   out of  19600    0.34%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       4   out of     64    6.25%
+  #bram9k                   0
+  #fifo9k                   4
+#bram32k                    0   out of     16    0.00%
+#pad                       31   out of    188   16.49%
+  #ireg                     8
+  #oreg                    18
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------+
+|Instance                           |Module                     |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------------+
+|top                                |sobel_ctrl                 |12      |96      |92      |4       |0       |
+|  u_sobel_cov                      |sobel_cov                  |0       |96      |56      |0       |0       |
+|  u_sobel_linebuffer               |sobel_linebuffer           |12      |0       |2       |4       |0       |
+|    hsyncfifo_ahead2048x8_line0    |hsyncfifo_ahead2048x8      |4       |0       |1       |2       |0       |
+|      u_hsyncfifo_2048x8_afull1920 |hsyncfifo_2048x8_afull1920 |1       |0       |0       |2       |0       |
+|    hsyncfifo_ahead2048x8_line1    |hsyncfifo_ahead2048x8      |5       |0       |1       |2       |0       |
+|      u_hsyncfifo_2048x8_afull1920 |hsyncfifo_2048x8_afull1920 |1       |0       |0       |2       |0       |
+|  u_sobel_regarray                 |sobel_regarray             |0       |0       |8       |0       |0       |
++------------------------------------------------------------------------------------------------------------+

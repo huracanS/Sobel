@@ -1,9 +1,7 @@
-../../rtl/RGB2GRAY/*.sv
+../../rtl/sobel_linebuffer/*.v
+../../rtl/sobel_position_calculate/*.v
+../../rtl/sobel_regarray/*.sv
+../../rtl/sobel_top/*.sv
+../../rtl/sobel_pipe_line/*.sv
 ../../rtl/RGB2GRAY/*.v
-../../rtl/SOBEL_LINEBUFFER/*.v
-../../rtl/SOBEL_INTERPOLATION/*.v
-../../rtl/SOBEL_POSITION_CALCULATE/*.v
-../../rtl/SOBEL_REGARRAY/*.sv
-../../rtl/SOBEL_TOP/*.sv
-../../rtl/SOBEL_TOP/*.v
-../../rtl/SOBEL_PIPE_LINE/*.sv
+../../rtl/RGB2GRAY/*.sv
